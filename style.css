@@ -1,0 +1,160 @@
+font-face {
+    font-family: 'robotoblack';
+    src: url('roboto-black-webfont.woff2') format('woff2'),
+         url('roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    min-width: 1100px;
+    margin: 0;
+    padding: 0;
+    font-family: "robotoregular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+.container{
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+min-height: 800px;
+background-color: #f9f6f1;
+}
+.section.header-menu{
+    min-height: 90px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.menu_link{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.basket_link{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.section_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.slider_item{
+    display: flex;
+    padding-top: 166px;
+    justify-content: space-between;
+    min-height: 564px;
+    background:url(/img/running_shoes_PNG5823.png) no-repeat right center; 
+}
+.slider_text{
+    font-size: 30px;
+}
+.slider_big-text{
+    font-family: "montserratbold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.button{
+    display: block;
+    width: 240px;
+    padding: 22px 0;
+    text-align: center;
+    background-color: #d7b399;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+.slider_item-price{
+    font-family: "montserrtbold", "Arial", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.slider_price--old{
+    font-size: 24px;
+    text-decoration-line: line-through;
+}
+.slider_price--new{
+    font-size: 42px;
+    color: #d84003;
+}
+.slider_button{
+    position: absolute;
+    top: 50%;
+}
+.slider_button--prev{
+    left: 100px;
+}
+.slider_button--next{
+    right: 100px;
+}
+.footer {
+}
+.section.header-menu {
+}
+.section.banner {
+}
+.section.deliveery {
+}
+.section.men-women {
+}
+.section.dress {
+}
+.section.new {
+}
+.gifts {
+}
+.low.price {
+}
+.seti {
+}
+.rule {
+}
+.container {
+}
